@@ -1,1 +1,119 @@
 
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.app-header {
+  background: #ff0057;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/* Stepper */
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  background: #f4f4f4;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #777;
+}
+
+.step-number {
+  background: #ddd;
+  color: white;
+  font-size: 14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.step.active .step-number {
+  background: #ff0057;
+}
+
+.step.active .step-name {
+  color: #ff0057;
+  font-weight: bold;
+}
+
+/* Form Section */
+.form-container {
+  padding: 25px;
+}
+
+input, textarea {
+  width: 48%;
+  padding: 8px;
+  margin: 8px 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 98%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  padding: 8px;
+  background: #f9f9f9;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Buttons */
+button {
+  background: #ff0057;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  margin: 10px 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #e0004d;
+}
+
+#back {
+  background: #aaa;
+}
+
+#back:hover {
+  background: #888;
+}
